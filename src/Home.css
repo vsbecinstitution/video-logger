@@ -1,0 +1,224 @@
+* {
+  font-family: "Poppins", "Noto Sans", "Sans Serif";
+}
+#homecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#navbar {
+  padding: 0 3vh;
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(146, 146, 146, 0.575);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logotitle {
+  font-size: 20px;
+  margin-left: 10px;
+}
+#homelogodiv {
+  display: flex;
+  align-items: center;
+}
+#homestrong {
+  color: red;
+}
+#homelogo {
+  width: 8vh;
+}
+#homesignout {
+  padding: 10px;
+  color: white;
+  background-color: rgb(27, 80, 255);
+  border-radius: 5px;
+  border-style: none;
+}
+#homewelcome {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+#homewelcomeh1 {
+  margin-left: 1vw;
+  color: rgb(255, 255, 255);
+  background-color: red;
+  padding: 15px;
+  border-radius: 10px;
+}
+#homeinputdiv {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  align-items: center;
+  height: 20vh;
+  justify-content: center;
+  background-image: linear-gradient(45deg, rgb(1, 60, 221), rgb(68, 149, 255));
+  border-radius: 10px;
+  margin-bottom: 3vh;
+}
+#todaytitleinput {
+  width: 40vw;
+  height: 50px;
+  margin-top: 2vh;
+  border-radius: 10px 0 0 10px;
+  border-style: none;
+  padding: 10px;
+}
+#todaytitleh3 {
+  color: white;
+}
+#todaytitlebtn {
+  padding: 16px;
+  border-style: none;
+  border-radius: 0 10px 10px 0px;
+  background-color: blue;
+  color: white;
+}
+#homeowntitlediv {
+  display: flex;
+  flex-direction: column;
+}
+#homeowninputdiv {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(45deg, rgb(235, 192, 0), rgb(248, 170, 0));
+  border-radius: 10px;
+  margin-bottom: 5vh;
+}
+#owntitleinput {
+  width: 40vw;
+  height: 50px;
+  margin-top: 2vh;
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.616);
+}
+#owntitleh3 {
+  margin-top: 5vh;
+  color: white;
+}
+#owntitlebtn {
+  padding: 16px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+#previousvideosh1 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(15, 91, 255);
+  padding: 15px;
+  border-radius: 10px;
+}
+#homeprevious {
+  display: flex;
+  margin-top: 5vh;
+  width: 90vw;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.homecard {
+  width: 40vw;
+  padding-top: 5vh;
+  margin-top: 5vh;
+  background-color: rgb(254, 255, 183);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 3vh;
+}
+#homevideoframe {
+  margin-top: 3vh;
+  width: 30vw;
+  height: 40vh;
+}
+#homevideoh3 {
+  margin-top: 3vh;
+}
+#ulist {
+  margin-top: 3vh;
+  list-style-type: disc;
+}
+#mpmamdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(212, 234, 253);
+  border-radius: 10px;
+  padding: 3vw;
+}
+#mpmam {
+  width: 20vw;
+  display: flex;
+  justify-content: end;
+  margin-top: 3vh;
+  font-size: 20px;
+  color: rgb(0, 60, 255);
+}
+#hometodaytopicdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#hometodaytopicp {
+  margin-top: 5px;
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  #homewelcome {
+    justify-content: center;
+  }
+  #mpmamdiv {
+    width: 90vw;
+  }
+  #mpmamwords {
+    font-size: 20px;
+  }
+  #mpmam {
+    font-size: 20px;
+    width: 80vw;
+  }
+  #homeinputdiv {
+    width: 90vw;
+  }
+  #homeowninputdiv {
+    width: 90vw;
+  }
+  #homeprevious {
+    flex-direction: column;
+  }
+  .homecard {
+    width: 90vw;
+    height: 60vh;
+    margin-top: 5vh;
+  }
+  #homevideoframe {
+    width: 80vw;
+    height: 30vh;
+  }
+  #owntitleinput {
+    width: 70vw;
+  }
+  #todaytitleinput {
+    width: 50vw;
+  }
+}

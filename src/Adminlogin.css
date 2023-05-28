@@ -1,0 +1,60 @@
+#adminlogincontainer{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(45deg,rgb(170, 197, 255),rgb(0, 132, 255));
+}
+#adminloginlogodiv{
+    display: flex;
+    justify-content: center;
+    
+    width: 50vw;
+}
+#adminloginformdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    
+    
+    
+}
+#adminloginlogo{
+    width: 40vw;
+}
+#adminloginform{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.521);
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    border-radius: 10px;
+    
+}
+#adminloginh1{
+    color: rgb(0, 25, 80);
+}
+#adminlogininput{
+    margin-top: 5vh;
+    width: 20vw;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+}
+#adminloginbtn{
+    width: 10vw;
+    height: 50px;
+    margin-top: 5vh;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(15, 71, 255);
+    color: white;
+    font-size: 15px;
+    border-style: none;
+}

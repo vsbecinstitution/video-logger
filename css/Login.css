@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+}
+#logo{
+    width: 5vh;
+}
+.input{
+    background-color: aqua;
+}

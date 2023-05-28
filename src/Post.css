@@ -1,0 +1,27 @@
+#postdiv{
+    display: flex;
+    background-color: #3b9ffd;
+    width: 50vw;
+    justify-content: center;
+    height:  10vh;
+    align-items: center;
+    margin-top: 5vh;
+    border-radius: 10px;
+
+}
+#postinput{
+    width: 20vw;
+    height: 40px;
+    border-style: none;
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+#postbtn{
+    width: 7vw;
+    height: 40px;
+    border-style: none;
+    border-radius: 0 10px 10px 0;
+    background-color: rgb(0, 38, 255);
+    color: white;
+}

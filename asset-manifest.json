@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/communication/static/css/main.c56c3163.css",
+    "main.js": "/communication/static/js/main.3f4bbfc6.js",
+    "static/media/logo.png": "/communication/static/media/logo.163f8c89b5793ad08a43.png",
+    "index.html": "/communication/index.html",
+    "main.c56c3163.css.map": "/communication/static/css/main.c56c3163.css.map",
+    "main.3f4bbfc6.js.map": "/communication/static/js/main.3f4bbfc6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c56c3163.css",
+    "static/js/main.3f4bbfc6.js"
+  ]
+}

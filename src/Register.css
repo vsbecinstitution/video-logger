@@ -1,0 +1,72 @@
+* {
+  font-family: "Noto Sans", "Sans Serif";
+  overflow-x: hidden;
+}
+
+#registerdiv {
+  background-image: linear-gradient(45deg, rgb(34, 134, 255), rgb(1, 75, 211));
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#registerform {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#registerformdiv {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.466);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+  width: 50vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  border-radius: 10px;
+}
+#registerinput {
+  width: 30vw;
+  height: 7vh;
+  margin-top: 3vh;
+  border-radius: 7px;
+  border-style: none;
+  padding: 10px;
+  font-size: 20px;
+}
+#registerbtn {
+  margin-top: 5vh;
+  color: blue;
+  width: 10vw;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 7px;
+  border-style: none;
+}
+#registerlink {
+  color: rgb(0, 18, 119);
+  margin-top: 5vh;
+  text-decoration: underline;
+  margin-bottom: 5vh;
+}
+#registerh1 {
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  #registerformdiv {
+    width: 90vw;
+  }
+  #registerinput {
+    width: 80vw;
+  }
+  #registerbtn {
+    width: 50vw;
+  }
+}

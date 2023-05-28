@@ -1,0 +1,89 @@
+#admincontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#adminnavbar{
+    padding: 0 3vh;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(146, 146, 146, 0.575);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#adminformsection{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#adminformdiv{
+    
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+#adminform{
+    display: flex;
+
+    justify-content: center;
+    
+}
+#admininput{
+    width: 15vw;
+    height: 50px;
+    padding: 10px;
+    margin-left: 5vh;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#admininputbtn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 81, 255);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 20px;
+    display: none;
+}
+#adminwrapper{
+    display: flex;
+    width: 90vw;
+    margin-top: 5vh;
+    background-color: #90cdff;
+    border-radius: 10px;
+    
+}
+#admincardview{
+    width: 80vw;
+    height: 80vh;
+}
+#adminsidenav{
+    width: 40vh;
+    background-color: rgb(20, 122, 255)  ;
+    border-radius: 10px;
+    height: 80vh;
+    padding: 10px;
+}
+#adminh3{
+    color: rgb(4, 29, 112);
+}
+.active{
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+#changetab{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    margin-right: 10px;
+}
