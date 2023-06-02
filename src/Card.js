@@ -91,7 +91,7 @@ const Card = (props) => {
                 frameBorder="0"
                 allowFullScreen
               ></iframe>
-              <h1>Self intro video with project </h1>
+              <h1>{value[0][3]} </h1>
 
               <p>{value[0][1]}</p>
               
